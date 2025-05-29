@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Password Strength Checker",
+  "version": "1.0.0",
+  "description": "This is a simple extension that checks the password strengh and recommend a strong one",
+    "action": {
+    "default_popup": "index.html",
+    "default_title": "Check your Password Now."
+  },
+    "icons": {
+      "16": "/figures/main_icon16.png",
+      "48": "/figures/main_icon48.png",
+      "128": "/figures/main_icon128.png"
+  }
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Password Strengh Checker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <script defer src="logic.js"></script>
+</head>
+<body>
+    <div class="gradient" id="title">
+        <img src="/figures/lock.svg" alt="lock icon"><p>Password Strength Checker</p>
+    </div>
+    <div class="main">
+        <div class="checkBox">
+            <div id="stars">
+                <input type="password" id="inputPass" placeholder="Try Your Password">
+            </div>
+            <div id="twoButtons">
+                <img src="/figures/copy.svg" alt="copy icon" id="copy_icon">
+                <img src="/figures/eye_closed.svg" alt="show" id="eye_icon">
+            </div>
+        </div>
+        <div class="bar">
+            <div class="textDetector">
+                <p id="text">Check Your Password <span id="textColor">Now</span></p>
+            </div>
+            <div class="colorDetector">
+                <img src="/figures/empty.svg" alt="password detector" id="barDetector">
+            </div>
+        </div>
+        <div class="requirementsBox">
+            <p id="rulesTitle">Strong Password Requirements</p>
+            <div class="rules">
+                <img src="/figures/invalid.svg" alt="invalid icon" id="lengthy">
+                <p>Minimum 12 characters</p>
+            </div>
+            <div class="rules">
+                <img src="/figures/invalid.svg" alt="invalid icon" id="upper">
+                <p>At least 1 uppercase letter (A–Z)</p>
+            </div>
+            <div class="rules">
+                <img src="/figures/invalid.svg" alt="invalid icon" id="lower">
+                <p>At least 1 lowercase letter (a–z)</p>
+            </div>
+            <div class="rules">
+                <img src="/figures/invalid.svg" alt="invalid icon" id="digit">
+                <p>At least 1 number (0–9)</p>
+            </div>
+            <div class="rules">
+                <img src="/figures/invalid.svg" alt="invalid icon" id="special">
+                <p>At least 1 special character (e.g. ! @ # $ % ^ & *)</p>
+            </div>
+        </div>
+        
+    </div>
+    <div class="gradient" id="foot">
+        <p>Contact Us</p><a href="https://github.com/Abdelouahab-aourar"target="_blank"><img src="/figures/github.svg" alt="github icon"></a>
+            <a href="https://www.linkedin.com/in/aourar-abdelouahab/" target="_blank">
+            <img src="/figures/linkedin.svg" alt="linkedin icon"></a>
+            <a href="mailto:abdelouahab.aourar@gmail.com"><img src="/figures/mail.svg" alt="mail icon"></a>
+    </div>
+</body>
+</html>
